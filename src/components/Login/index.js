@@ -10,8 +10,8 @@ const Login = () => {
   const location = useLocation();
   const navigate = useNavigate();
   const [userDetails, setUserDetails] = useState({
-    username: location.state ? location.state : "",
-    password: "",
+    username: location.state ? location.state : "myindiaa@myindiaa.com",
+    password: "123456",
   });
   const [error, setError] = useState("");
   function handleUserDetails(event) {
