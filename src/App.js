@@ -1,24 +1,17 @@
-import logo from './logo.svg';
-import './App.css';
-
+import "./App.css";
+import { useState } from "react";
+import { RouterProvider } from "react-router-dom";
+import router from "./components/routes";
+import QueryContext from "./context/QueryContext";
 function App() {
+  const [userQuery, setUserQuery] = useState("");
+  function getQuery(query) {
+    setUserQuery(query);
+  }
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <QueryContext.Provider value={{ userQuery, getQuery }}>
+      <RouterProvider router={router} />
+    </QueryContext.Provider>
   );
 }
 
