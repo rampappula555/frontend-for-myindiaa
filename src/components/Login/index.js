@@ -72,7 +72,7 @@ const Login = () => {
       <div className="w-full md:w-1/2 flex justify-center mb-8 md:mb-0">
         <div className="relative">
           <img
-            src="https://s3-alpha-sig.figma.com/img/75f3/94c0/a1c7dc5b68a42239311e510f54d8cd59?Expires=1724630400&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=OVPbXzyFbwfSLSr0xFc46EhDPuLLRXj97eY-DUvdZqXkI~SvxgW52wvC2ZzqQBifz0jiSASSadgeeh3JiehtBWrgdG2xD~SYDrMo-AO1TncnqCOEp2JMg-UvltUIuETwWZk-ltr9vQzaoCe5-ZyQxW7vD0gWiCpdR5VRZ~wbbVt~jWiouWvLJJVJrMPSJSoYpfI0IxUjxKJKKjsBbsPSo87BalEA1guptLONpNfrbBiAe5Zi6ZhnnwxdVc1AIK3ScxuaQNyRrSwthho0bZwjhDbhzY0LLhAL6p07ObVBIHfTk3Dx-sktmt6uSxxHd~KoEWwFlR1~h~0zd0wY8kOTJQ__"
+            src="https://nationaltoday.com/wp-content/uploads/2021/06/Shopping-Cart-Day-1.jpg"
             alt="Phone with shopping cart"
             className="max-w-full h-auto"
           />
