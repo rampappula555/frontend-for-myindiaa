@@ -3,14 +3,14 @@ import React, { useEffect, useRef, useState } from "react";
 import { useDispatch } from "react-redux";
 import { Link, useLocation, useNavigate, Navigate } from "react-router-dom";
 import { createCart } from "../../redux/features/userCart";
-
+// import { api } from "../../services/network";
 const Login = () => {
   const userNameRef = useRef(null);
   const dispatch = useDispatch();
   const location = useLocation();
   const navigate = useNavigate();
   const [userDetails, setUserDetails] = useState({
-    username: location.state ? location.state : "myindiaa@myindiaa.com",
+    username: location.state ? location.state : "rampappula@gmail.com",
     password: "123456",
   });
   const [error, setError] = useState("");
