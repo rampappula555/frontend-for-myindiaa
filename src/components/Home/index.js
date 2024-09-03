@@ -18,7 +18,7 @@ const Home = () => {
       </div>
       <div className="w-full md:w-1/2 p-4">
         <img
-          src="https://s3-alpha-sig.figma.com/img/fcc8/9aaa/7b85f8c1dcce81e71e2eb178be13bd4d?Expires=1724630400&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=fjBES9k7oGVNFmh6JEgJ4Trqk0P8z8zNi0TzUrE7YpeHdZodjqVeOIBvMLxSeHmQzuJNDrDJ3SQcj5~yynFL4GQrfGDnIbWb~SP-qSW8VLkSfzSM4Jzol6lm4~eHQ6~UCtg-E-i4Nvz3OQe8VUPgpd1xWkKAXs2TPOdFUIlBBhTfdxTdHFMnKkiTCO7PI3s3LVcAaltcaIdXRPgsADYLoSum966R5hLB1t63n~vndbOoisIQRSyt-pNtCP2ZxbRZcCHqHB-3VflFgzpAZUHO8D1aZw5uzzCaPWT0uqNI8jveb8Jk7CX3UcG1a6Vt9CtgeD7IgzWC1neNsf50SwY7gw__"
+          src="https://img.freepik.com/free-photo/happy-pretty-asian-woman-carrying-colorful-shopping-bags-isolated-yellow-studio-background_74952-4056.jpg?size=626&ext=jpg&ga=GA1.1.1313484717.1725344409&semt=ais_hybrid"
           alt="Our Story"
           className="rounded-lg shadow-lg"
         />
